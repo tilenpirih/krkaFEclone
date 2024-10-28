@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.5.3",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "@nuxt/fonts": "^0.7.1",
+    "@pinia/nuxt": "^0.5.1",
+    "axios": "^1.7.2",
+    "dayjs-nuxt": "^2.1.9",
+    "html2canvas": "^1.4.1",
+    "nuxt": "^3.12.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-advanced-cropper": "^2.8.9",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.1",
+    "eslint": "9.4.0",
+    "eslint-plugin-format": "^0.1.2",
+    "sass": "^1.77.5",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.9"
+  }
+}

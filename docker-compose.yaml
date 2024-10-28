@@ -1,0 +1,11 @@
+version: '3.8'
+name: social-krka-fe
+services:
+  social-krka-fe-app:
+    build:
+      context: .
+    image: social-krka-fe-app
+    command: node server/index.mjs
+    ports:
+      - "3001:3000"
+    restart: always

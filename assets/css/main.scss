@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Tomarik Brush';
+  src: url('../../public/fonts/Tomarik-Brush.woff2') format('woff2');
+}
+body {
+  margin: 0px;
+}
+html {
+  overflow: auto !important;
+}
+.htmlContainer {
+  transform-origin: top left;
+}
+.originalScale {
+  scale: 1 !important;
+  margin-left: 0px !important;
+}
